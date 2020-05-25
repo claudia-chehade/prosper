@@ -1,5 +1,7 @@
 # Dataset
-I have chosen the prosper.cpom data set.
+This analysis nvestigates a data set from prosper.com which is a lending platform fro private investors.
+
+The dataset includes data from 2006 until 2014 an dwas provided by Udacity.
 
 # Exploration
 Target was to find strategies to help investors in avoiding losses when lending money via prosper.com.
@@ -13,9 +15,6 @@ Combining the ratings / scores with the DebtToIncomeRatio made it more interesti
 For explaination I skipped the employment status and occupation as dead ends of my exploration.
 3. Borrowers History:
 Due to the lack of time I did not explore the borrowers history information further to find more indicators for default risks.
-
-# Feedback
-Due to the lack of time I was not able to get proper feedback unfortunately.
 
 # Sources
 https://www.lendacademy.com/prosper-review/
