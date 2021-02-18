@@ -1,4 +1,4 @@
-# Advices for private investors in small loans via propser.com
+# Advices for private investors in small loans using propser.com as example
 
 ## About the data
 This analysis investigates a data set from prosper.com which is a lending platform for private investors.
