@@ -1,14 +1,17 @@
-# Dataset
-This analysis investigates a data set from prosper.com which is a lending platform fro private investors.
+# Advices for private investors in small loans via propser.com
 
+## About the data
+This analysis investigates a data set from prosper.com which is a lending platform for private investors.
 The dataset includes data from 2006 until 2014 and was provided by Udacity.
 
-# Exploration
-Target was to find strategies to help investors in avoiding losses when lending money via prosper.com.
+## Targets of Investigation
+The main target was to find strategies to help investors in avoiding losses when lending money via prosper.com.
+QAs a historian I was also interested to see how the pretext of the financial crisis looked like in the mirror of private investements.
 
+## Methodology
 1. Loans Details: 
-I assumed that loans which increase productivity (business, student) are more likely to be paid back than loans which only serve consumption (Home Improvements,Vacation, etc.) I explored the distribution of loans in different loan categories. I included the distribution of loans across loan categories over time to see how the overall risk is evolving. This is a useful context information for investors if we remmber the situation in the financial crisis 2009.
-The most useful information is about the default rates of the listing categories. Thats why I chose this as part of the explanation part.
+I assumed that loans which increase productivity (business, student) are more likely to be paid back than loans which only serve consumption (Home Improvements,Vacation, etc.) I explored the distribution of loans in different loan categories. I included the distribution of loans across loan categories over time to see how the overall risk was evolving. This is a useful context information for investors to recognize similiar settingsas in the financial crisis in 2008/2009.
+The most useful information is about the default rates of the listing categories. Thats why I chose this as main part of my explanation.
 To get better information about the default rates in each category I combined it with the state information. 
 
 2. Borrowers Details: 
@@ -17,7 +20,7 @@ Combining the ratings / scores with the DebtToIncomeRatio made it more interesti
 For explanation I skipped the employment status and occupation as dead ends of my exploration.
 
 3. Borrowers History:
-Due to the lack of time I did not explore the borrowers history information further to find more indicators for default risks.
+The borrowers history information might contain more indicators for default risks. This would be worth to be investigated in the next step.
 
 # Sources
 https://www.lendacademy.com/prosper-review/
